@@ -26,7 +26,7 @@ dependencies {
     // 依赖aop    
     implementation 'org.springframework.boot:spring-boot-starter-aop:2.6.2'
 	// 自定义starter
-    implementation 'com.simplexi:rw-datasource-spring-boot-starter:1.1.0'
+    implementation 'com.fycx:rw-datasource-spring-boot-starter:1.1.1'
     ...
 }
 
