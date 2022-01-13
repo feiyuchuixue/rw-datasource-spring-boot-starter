@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.simplexi.dynamic.datasource.autoconfigure.ReadAndWriteDatasourceAutoConfiguration,\
+    com.simplexi.dynamic.datasource.autoconfigure.DefaultDatasourceAutoConfiguration  
