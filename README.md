@@ -48,7 +48,7 @@ spring:
         url: jdbc:mysql://127.0.0.1:13306/db_master?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8
         driver-class-name: org.mariadb.jdbc.Driver
         type: com.alibaba.druid.pool.DruidDataSource
-	...
+	# ...
       # 写数据源
       read:
         url: jdbc:mysql://10.15.1.32:23306/db_master?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8
@@ -56,7 +56,7 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         username: db_slave
         password: 123456
-     	...
+     	# ...
       # 默认数据源	
       default:
         url: jdbc:mysql://127.0.0.1:13306/db_slave?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8
@@ -64,7 +64,7 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         username: root
         password: root
-	...
+	# ...
 ```
 
 当**enbale**=**true**时，必须配置 **spring.datasource.rw.write** 和**spring.datasource.rw.read**
