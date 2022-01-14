@@ -42,7 +42,7 @@ spring:
       # 注入方式：读写分离=>true; 单数据源=>false; 默认false
       enable: true
       # 数据库类型，默认mariadb
-      dbType：mariadb
+      dbType: mariadb
       # 读数据源
       write:
         url: jdbc:mysql://127.0.0.1:13306/db_master?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8
